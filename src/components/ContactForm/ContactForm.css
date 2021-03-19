@@ -1,0 +1,39 @@
+.contactForm {
+  background-color: #0e1a2b;
+  max-width: 600px;
+  width: 95%;
+  min-width: 300px;
+  margin: 0 auto;
+  padding: 20px 30px;
+}
+
+.contactForm__inputs {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.contactForm__inputs > * {
+  flex: 0.45;
+}
+
+.contactForm__texrArea {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactForm__texrArea > textarea {
+  resize: none;
+  border: none;
+  outline-width: 0;
+  padding: 8px 10px;
+  margin: 10px 0;
+  color: #c1d1e8;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 500px) {
+  .contactForm {
+    padding: 20px 8px;
+  }
+}

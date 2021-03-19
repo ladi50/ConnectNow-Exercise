@@ -1,0 +1,12 @@
+.button {
+  padding: 6px 18px;
+  float: right;
+  cursor: pointer;
+  outline-width: 0;
+}
+
+@media (max-width: 520px) {
+  .button {
+    width: 100%;
+  }
+}

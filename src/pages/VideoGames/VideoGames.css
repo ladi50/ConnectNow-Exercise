@@ -1,0 +1,13 @@
+.videoGames {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: 0 auto;
+}
+
+@media (max-width: 1020px) {
+  .videoGames {
+    flex-direction: column;
+    width: 95%;
+  }
+}

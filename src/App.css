@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@500;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(180deg, #081221 0%, #03080f 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  color: #c1d1e8;
+  font-family: Mulish;
+  user-select: none;
+}
+
+input,
+select,
+textarea {
+  background-color: #182c47;
+}
+
+button {
+  background-color: #5692e8;
+  color: #ffffff;
+}
+
+label,
+header {
+  color: #ffffff;
+}
+
+#root {
+  margin-top: 236px;
+}
+
+h1,
+h2,
+h3,
+h4,
+label,
+button {
+  font-family: "Montserrat", Arial;
+}

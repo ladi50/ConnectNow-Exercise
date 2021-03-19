@@ -1,0 +1,9 @@
+.links {
+  display: flex;
+}
+
+@media (max-width: 800px) {
+  .links {
+    flex-direction: column;
+  }
+}

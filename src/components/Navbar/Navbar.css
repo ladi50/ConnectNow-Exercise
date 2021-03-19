@@ -1,0 +1,21 @@
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  padding: 80px;
+  background-color: #060e19;
+}
+
+@media (max-width: 800px) {
+  .navbar {
+    padding: 40px 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .navbar {
+    padding: 40px 5px;
+  }
+}

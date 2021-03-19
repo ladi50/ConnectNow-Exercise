@@ -1,0 +1,31 @@
+.filter {
+  background-color: #0e1a2b;
+  flex: 0.2;
+  padding: 15px 20px;
+  height: fit-content;
+}
+
+@media (max-width: 1020px) {
+  .filter {
+    margin: 0 0 60px;
+  }
+
+  .filter__inputs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media (max-width: 520px) {
+  .filter {
+    margin: 0 0 60px;
+  }
+
+  .filter__inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

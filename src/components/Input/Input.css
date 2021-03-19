@@ -1,0 +1,66 @@
+.input {
+  margin: 30px 0;
+}
+
+.input > label,
+.input__select > label {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.input > h3 {
+  text-align: center;
+}
+
+.input > input,
+.input__select > div > select {
+  padding: 8px 10px;
+  border: none;
+  width: 100%;
+  outline-width: 0;
+  color: #c1d1e8;
+}
+
+.input > input::placeholder {
+  color: #c1d1e8;
+}
+
+.input__select > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0 40px;
+}
+
+select {
+  cursor: pointer;
+}
+
+@media (max-width: 1020px) {
+  .input__select {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .input__select > div {
+    margin: 0;
+  }
+}
+
+@media (max-width: 520px) {
+  .input {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .input__select {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .input__select > div {
+    margin: 0;
+  }
+}
